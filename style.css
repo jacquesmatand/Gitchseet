@@ -1,0 +1,69 @@
+
+@media screen and (min-width: 380px) { /*  Pour téléphone*/
+
+	    .container{
+					width: 1070px; 
+					margin: 0 auto; 
+					/* Cette div, limite donc ma zone de travail. */
+			}
+	div .content-wrapper{ max-width: 100%; 
+						  float: left; 
+						  margin-bottom: 30px; }/* Je m'étends sur toute la page et toute la largeur. */
+
+	header .top-description{ max-width: 100%; 
+							 height: 30px; 
+							 float: left; 
+							 background-color: #800; } /* Dans cette partie, je mets tout ce qui touche 
+							 au haut de la page, dans une div  */
+
+
+	table{
+				border: transparent;
+				width: 800px;
+				text-align: center;
+				border-radius: 5px;
+				margin: 20px 15px 20px 10px;
+
+	}
+
+	tr:nth-child(odd) {
+		background-color: #e66;
+
+	}
+
+	tr:nth-child(even){
+		 background-color:#ccc;
+	}
+
+	p{ text-align: center;
+	padding: 5px; }
+
+	}
+
+/*  Pour tablette */
+@media screen and( min-width: 800px){
+
+	img {
+		height: 150px; 
+		width: 150px; 
+		border: 5px solid #aaa; 
+		float: left;
+		margin-bottom: 60px; 
+		/* Image en une pour avoir un peu de beauté sur la page.*/
+		} 
+}
+
+/* Pour Laptop */
+@media screen and (max-width: 1440px){
+	h1 {text-align: center; 
+		font-size: 30px;
+		background-color: #888; 
+		padding: 40px; 
+		width: 800px;
+		z-index: -1;} /* Par rapport à l'ordre des éléments, ce titre passe après pour laisser
+		la place à l'affichage des réseaux sociaux */
+
+
+	}
+
+
